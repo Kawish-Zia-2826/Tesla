@@ -1,0 +1,118 @@
+nav{
+    color: white;
+    text-transform: capitalize;
+   
+}
+*{
+    /* border: 2px solid white; */
+    text-transform: capitalize !important;
+}
+.absoulute{
+    position: absolute;
+    padding: 20px;
+    align-items: baseline;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 30px;
+    
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+a:hover{
+
+    border-radius: 5px;
+    color: black !important;
+    padding: 10px 20px;
+    background-color: darkgray;
+    
+}
+.icon
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    align-items: center;
+}
+.bg1{
+    background-image: url(./section/sec1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.sec2{
+    background-image: url(./section/sec2.jpg);
+}
+
+.sec3{
+    background-image: url(./section/sec3.jpg);
+}
+.sec4{
+    background-image: url(./section/sec4.jpg);
+}
+.sec5{
+    background-image: url(./section/sec5.jpg);
+}
+.sec6{
+    background-image: url(./section/sec5.jpg);
+}
+.sec7{
+    background-image: url(./section/sec4.jpg);
+}
+.heading{
+    display: flex;
+    /* align-items: end; */
+    height: 45vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 , h5{
+    text-align: center;
+    color: white !important;
+}
+h5{
+    text-decoration: underline;
+}
+.btn1{
+    height: 48vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    /* align-content: space-between; */
+    justify-content: center;
+}
+    .absoulute{
+     display: flex;
+     gap: 30px;
+    }
+
+
+    footer{
+        background-color: black;
+        color: white;
+        padding: 30px;
+    }
+    footer .footer_para{
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }
+
+.fotter_link {
+    display: flex !important;
+    /* text-align: left; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px;
+    }
+    small{
+        font-size: 11px !important;
+        margin: 30px;
+    }
